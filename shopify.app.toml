@@ -2,7 +2,7 @@
 
 name = "storeapp"
 client_id = "342f1b1625f1feb99a7b44d70d548366"
-application_url = "https://example.com"
+application_url = "https://specifics-nutrition-stanley-colours.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -10,10 +10,19 @@ embedded = true
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://specifics-nutrition-stanley-colours.trycloudflare.com/auth/callback",
+  "https://specifics-nutrition-stanley-colours.trycloudflare.com/auth/shopify/callback",
+  "https://specifics-nutrition-stanley-colours.trycloudflare.com/api/auth/callback",
+  "https://specifics-nutrition-stanley-colours.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
 
 [webhooks]
 api_version = "2023-10"
 
 [pos]
 embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "storeapp4514.myshopify.com"

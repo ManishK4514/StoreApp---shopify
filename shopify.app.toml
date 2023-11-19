@@ -2,7 +2,7 @@
 
 name = "storeapp"
 client_id = "342f1b1625f1feb99a7b44d70d548366"
-application_url = "https://specifics-nutrition-stanley-colours.trycloudflare.com"
+application_url = "https://angel-aye-include-baseline.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://specifics-nutrition-stanley-colours.trycloudflare.com/auth/callback",
-  "https://specifics-nutrition-stanley-colours.trycloudflare.com/auth/shopify/callback",
-  "https://specifics-nutrition-stanley-colours.trycloudflare.com/api/auth/callback",
-  "https://specifics-nutrition-stanley-colours.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://angel-aye-include-baseline.trycloudflare.com/auth/callback",
+  "https://angel-aye-include-baseline.trycloudflare.com/auth/shopify/callback",
+  "https://angel-aye-include-baseline.trycloudflare.com/api/auth/callback",
+  "https://angel-aye-include-baseline.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
